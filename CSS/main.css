@@ -1,0 +1,16 @@
+@media screen (max-width:768px) {
+    
+    .logo-header {
+        display: flex;
+        width: 250px;
+        height:150px;
+    }
+
+    .fa-location-dot {
+        color: rgb(102, 102, 102);
+    }
+
+
+
+
+}
