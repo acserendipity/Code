@@ -41,74 +41,102 @@
 
 <body>
     <header>
-        <section class="logo-header">
+        <div class="logo-header">
             <img src="file:///C:/Users/alexa/OneDrive/Desktop/Open%20Classrooms%20-%20Web%20Design/Project%202%20-%20OHMYFOOD/Projet+3+-+ohmyfood+EN/Projet%202%20-%20ohmyfood%20EN/images/logo/ohmyfood.png" 
-        alt="OHMYFOOD-logo">
-        </section>
-        <br>
+        alt="OHMYFOOD-logo" class="ohmyfood-logo">
+        </div>
+
         
         <section class="Paris">
-            <i class="fa-sharp fa-solid fa-location-dot"><span class="header-location">Paris, Belleville</span></i>
+            <i class="fa-sharp fa-solid fa-location-dot"></i><span class="header-location">Paris, Belleville</span>
         </section>
         
-        <h1>Book the menu you like</h1>
-        <p>Discover top-of-the-art restaurants we picked for you</p>
-        <button>Explore our restaurants</button>
+        <div class="explore-panel">
+            <div class="book-menu">
+                <h1>Book the menu you like</h1>
+            </div>
+            <div class="dicover-top-rest">
+                <p>Discover top-of-the-art restaurants we picked for you</p>
+            </div>
+            <div class="purple-button">
+                <button class="explore-button">Explore our restaurants</button>
+            </div>    
+        </div>
     </header>
 
-    <section class="how-to">
-        <h2>How it works</h2>
-        <button class="choose"><i class="fa-solid fa-mobile-screen-button"></i>Choose a restaurant</button> 
-        <button class="create"><i class="fa-solid fa-list-ul"></i>Create your menu</button>
-        <button class="enjoy"><i class="fa-solid fa-store"></i>Go enjoy it at the restaurant</button>
-    </section>
+    <div class="how-to">
+        <div class="how-works">
+            <h2>How it works</h2>
+        </div>
+        <div class="choose">
+            <button class="choose-btn"><i class="fa-solid fa-mobile-screen-button"></i>Choose a restaurant</button> 
+        </div>
+        <div class="create">
+            <button class="create-btn"><i class="fa-solid fa-list-ul"></i>Create your menu</button>
+        </div>
+        <div class="enjoy">
+            <button class="enjoy-btn"><i class="fa-solid fa-store"></i>Go enjoy it at the restaurant</button>
+        </div>
+    </div>
 
     <section class="feature-restaurants">
-        <h2>Restaurants</h2>
+        <h2 class="rest-title">Restaurants</h2>
+        
+        <div class="rest-card-wrap">
+            <div class="Full-Palette">
+                <img src="file:///C:/Users/alexa/OneDrive/Desktop/Open%20Classrooms%20-%20Web%20Design/Project%202%20-%20OHMYFOOD/Projet+3+-+ohmyfood+EN/Projet%202%20-%20ohmyfood%20EN/images/restaurants/The%20Full%20Palette.jpg" 
+        alt="The-Full-Palette" width=100% class="rest-pic">
+                    <div class="restaurant-name">
+                        <i class="fa-regular fa-heart"></i>
+                        <h4>The Full Palette</h4>
+                        <p>New York</p> 
+                    </div>     
+            </div>
 
-        <div class="Full-Palette">
-            <img src="file:///C:/Users/alexa/OneDrive/Desktop/Open%20Classrooms%20-%20Web%20Design/Project%202%20-%20OHMYFOOD/Projet+3+-+ohmyfood+EN/Projet%202%20-%20ohmyfood%20EN/images/restaurants/The%20Full%20Palette.jpg" 
-        alt="The-Full-Palette" width="500" height="300">
-            <h6><span=restaurant-name>The Full Palette</span></h6>
-            <p>New York</p>
-            <i class="fa-regular fa-heart"></i>
-        </div>
+            <div class="Enchanted-Plate">
+                <img src="file:///C:/Users/alexa/OneDrive/Desktop/Open%20Classrooms%20-%20Web%20Design/Project%202%20-%20OHMYFOOD/Projet+3+-+ohmyfood+EN/Projet%202%20-%20ohmyfood%20EN/images/restaurants/The%20Enchanted%20Plate.jpg"
+        alt="The-Enchanted-Plate" width=100% class="rest-pic">
+                    <div class="restaurant-name">
+                        <i class="fa-regular fa-heart"></i>
+                        <h4>The Enchanted Plate</h4>
+                        <p>New York</p>              
+                    </div>
+            </div>
 
-        <div class="Enchanted-Plate">
-            <img src="file:///C:/Users/alexa/OneDrive/Desktop/Open%20Classrooms%20-%20Web%20Design/Project%202%20-%20OHMYFOOD/Projet+3+-+ohmyfood+EN/Projet%202%20-%20ohmyfood%20EN/images/restaurants/The%20Enchanted%20Plate.jpg"
-        alt="The-Enchanted-Plate" width="500" height="300">
-            <h6><span=restaurant-name>The Enchanted Plate</span></h6>
-            <p>New York</p>
-            <i class="fa-regular fa-heart"></i>
-        </div>
+            <div class="Bastille">
+                <img src="file:///C:/Users/alexa/OneDrive/Desktop/Open%20Classrooms%20-%20Web%20Design/Project%202%20-%20OHMYFOOD/Projet+3+-+ohmyfood+EN/Projet%202%20-%20ohmyfood%20EN/images/restaurants/Bastille.jpg"
+        alt="Bastille" width=100% class="rest-pic">
+                    <div class="restaurant-name">
+                        <i class="fa-regular fa-heart"></i>
+                        <h4>Bastille</h4>
+                        <p>New York</p>           
+                    </div>   
+            </div>
 
-        <div class="Bastille">
-            <img src="file:///C:/Users/alexa/OneDrive/Desktop/Open%20Classrooms%20-%20Web%20Design/Project%202%20-%20OHMYFOOD/Projet+3+-+ohmyfood+EN/Projet%202%20-%20ohmyfood%20EN/images/restaurants/Bastille.jpg"
-        alt="Bastille" width="500" height="300">
-            <h6><span=restaurant-name>Bastille</span></h6>
-            <p>New York</p>
-            <i class="fa-regular fa-heart"></i>
-        </div>
-
-        <div class="Gourmand">
-            <img src="file:///C:/Users/alexa/OneDrive/Desktop/Open%20Classrooms%20-%20Web%20Design/Project%202%20-%20OHMYFOOD/Projet+3+-+ohmyfood+EN/Projet%202%20-%20ohmyfood%20EN/images/restaurants/Le%20Gourmand.jpg"
-        alt="Le-Gourmand" width="500" height="300">
-            <h6><span=restaurant-name>Le Gourmand</span></h6>
-            <p>New York</p>
-            <i class="fa-regular fa-heart"></i>
+            <div class="Gourmand">
+                <img src="file:///C:/Users/alexa/OneDrive/Desktop/Open%20Classrooms%20-%20Web%20Design/Project%202%20-%20OHMYFOOD/Projet+3+-+ohmyfood+EN/Projet%202%20-%20ohmyfood%20EN/images/restaurants/Le%20Gourmand.jpg"
+        alt="Le-Gourmand" width=100% class="rest-pic">
+                <div class="restaurant-name">
+                        <i class="fa-regular fa-heart"></i>
+                        <h4>Gourmand</h4>
+                        <p>New York</p>
+                </div>
+         </div>
         </div>
 
     </section>
 </body>
 
 <footer>
-    <img src="file:///C:/Users/alexa/OneDrive/Desktop/Open%20Classrooms%20-%20Web%20Design/Project%202%20-%20OHMYFOOD/Projet+3+-+ohmyfood+EN/Projet%202%20-%20ohmyfood%20EN/images/logo/ohmyfood@2x.svg" 
+    <div class="footer-section">
+        <img class="footer-logo" src="file:///C:/Users/alexa/OneDrive/Desktop/Open%20Classrooms%20-%20Web%20Design/Project%202%20-%20OHMYFOOD/Projet+3+-+ohmyfood+EN/Projet%202%20-%20ohmyfood%20EN/images/logo/ohmyfood@2x.svg" 
     alt="LOGO">
     <br>
-    <i class="fa-solid fa-utensils"></i><p>Suggest a restaurant</p>
-    <i class="fa-solid fa-handshake-angle"></i><p>Become a partner</p>
-    <p>Legal</p>
-    <p>Contact</p>
+        <div class="footer-item"><i class="fa-solid fa-utensils"></i>Suggest a restaurant</div>
+        <div class="footer-item"><i class="fa-solid fa-handshake-angle"></i>Become a partner</div>
+        <div class="footer-item">Legal</div>
+        <div class="footer-item">Contact</div>
+    </div>
 </footer>
 
 </html>
