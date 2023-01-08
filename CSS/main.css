@@ -1,6 +1,4 @@
-
-    
-        .logo-header {
+.logo-header {
             text-align: center;
         }
         
@@ -54,6 +52,16 @@
             font-family: 'Roboto';
             font-weight: 800;
             text-align: start;
+        }
+        .numb-tag{
+            color: white;
+            border: 10px;
+            background-image: linear-gradient(#FF79DA, #9356DC);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            padding: 8px;
+            margin-right: 2em;
         }
         .fa-mobile-screen-button {
             font-size: large;
