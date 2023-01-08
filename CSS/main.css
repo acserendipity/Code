@@ -1,6 +1,10 @@
 .logo-header {
             text-align: center;
         }
+body{
+    height: 100vh;
+    
+}
         
         .Paris {
             background-color: rgb(207, 207, 207);
@@ -185,6 +189,7 @@
             float: right;
             padding-right: 10%;
             font-size: 30px;
+            cursor: pointer;
         }
         .footer-section {
             background-color: rgb(116, 116, 116);
