@@ -1,18 +1,12 @@
-.fa-heart{
-    animation-delay: 1ms;
-    animation-direction: normal;
-    animation-duration: 2s;
-    animation-fill-mode: backwards;
-    animation-iteration-count: infinite;
-    animation-play-state: running;
-   animation-name: initial;
+.heart-like{
+    background-color: white;
+    width: auto;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
 }
-@keyframes fillin {
-    from{
-        transform: translateX(0%);
-    }
-
-    to{
-        transform: translateX(100%);
-    }
+.heart-like:hover{
+    width: max-content;
+    transform: rotate(180deg);
 }

@@ -98,7 +98,7 @@ body{
             font-size: large;
             box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
             width: 100%;
-            height: 5em;
+            height: 4em;
             font-size: larger;
         }
         .create-btn {
@@ -111,7 +111,7 @@ body{
             font-size: large;
             box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
             width: 100%;
-            height: 5em;
+            height: 4em;
             font-size: larger;
         }
         .enjoy-btn {
@@ -124,7 +124,7 @@ body{
             font-size: large;
             box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
             width: 100%;
-            height: 5em;
+            height: 4em;
             font-size: larger;
         }
         .choose :hover {
@@ -142,8 +142,26 @@ body{
             
         }
 
+        button:hover{
+            cursor: pointer;
+        }
         
-
+        .new-tag {
+            color: #33ffcc;
+            font-weight: 700;
+            background-color: #c7f8ec;
+            position: absolute;
+            margin-left: 22em;
+            border: 1px solid #c7f8ec;
+            width: 3em;
+            border-radius: 5px;
+            text-align: center;
+            width: 15%;
+            height: 22px;
+            padding-top: 1%;
+        }
+       
+      
         .rest-title {
             font-family: 'Roboto';
             font-weight: 800;
@@ -159,6 +177,8 @@ body{
             transition: 0.3s;
             border-radius: 5px;
             margin-bottom: 1em;
+            position: relative;
+           
             
         }
         .Enchanted-Plate {
@@ -168,6 +188,7 @@ body{
             transition: 0.3s;
             border-radius: 5px;
             margin-bottom: 1em;
+            position: relative;
            
         }
         .Bastille {
@@ -195,6 +216,11 @@ body{
             float: right;
             padding-right: 10%;
             font-size: 30px;
+            color: rgb(182, 181, 181);
+            border-color: black;
+        }
+        .fa-heart:hover{
+           color: #FF79DA;
             cursor: pointer;
         }
         .footer-section {
