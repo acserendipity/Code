@@ -103,6 +103,12 @@ p{
         border-radius: 15em;
         width: 300px;
 }
+.fa-circle-check {
+    background-color: #99E2D0;
+    color: white;
+    position: relative;
+    font-size: xx-large;
+}
 .ord-btn{
     text-align: center;
 }

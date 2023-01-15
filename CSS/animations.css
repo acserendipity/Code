@@ -20,4 +20,18 @@ button:hover{
 		opacity: 1;
 		transform: translate3d(0, 0, 0);
 	}
+}
 
+.fa-circle-check{
+    animation: spin 1s ease-in-out 1 paused;
+}
+.fa-circle-check:hover{
+    animation-play-state: running;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
