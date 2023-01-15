@@ -85,7 +85,7 @@ p{
     color: #99E2D0;
     font-size: large;
 }
-.dish{
+#menu-card{
     background-color: white;
     border: 5px solid white;
     border-radius: 2em;

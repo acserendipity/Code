@@ -1,12 +1,23 @@
-.heart-like{
-    background-color: white;
-    width: auto;
-    transition-property: width;
-    transition-duration: 1s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
+button{
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
 }
-.heart-like:hover{
-    width: max-content;
-    transform: rotate(180deg);
+button:hover{
+    transform: scale(1.07);
 }
+#menu-card {
+    opacity: 0;
+	animation: fadeIn 1s ease-in both;
+    cursor: pointer;
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+
