@@ -36,10 +36,19 @@ button:hover{
     }
 }
 #menu-card:hover{
-    width: 80%;
+    width: 80%;  
 }
-.menu-item-check:hover{
+.menu-item-check{
     opacity: 1;
-    width: 50px;
-    margin-right: 2em;
 }
+#menu-card:hover + .menu-item-check {
+    animation: slide-in-right 0.5s forwards;
+  }
+  @keyframes slide-in-right {
+    from {
+      right: -30px;
+    }
+    to {
+      right: 0;
+    }
+  }
