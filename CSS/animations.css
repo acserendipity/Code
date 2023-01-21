@@ -21,7 +21,6 @@ button:hover{
 		transform: translate3d(0, 0, 0);
 	}
 }
-
 .fa-circle-check{
     animation: spin 1s ease-in-out 1 paused;
 }
@@ -35,3 +34,12 @@ button:hover{
     to {
         transform: rotate(360deg);
     }
+}
+#menu-card:hover{
+    width: 80%;
+}
+.menu-item-check:hover{
+    opacity: 1;
+    width: 50px;
+    margin-right: 2em;
+}
