@@ -35,20 +35,20 @@ button:hover{
         transform: rotate(360deg);
     }
 }
-#menu-card:hover{
-    width: 80%;  
+.menu-card{
+    animation: slide-in 1s ease-in; 
 }
-.menu-item-check{
+.menu-item-check:hover{
     opacity: 1;
 }
-#menu-card:hover + .menu-item-check {
-    animation: slide-in-right 0.5s forwards;
+.menu-item-check:hover {
+    animation: slide-in 1s ease-in;
   }
-  @keyframes slide-in-right {
+  @keyframes slide-in {
     from {
-      right: -30px;
+      right: -85px;
     }
     to {
-      right: 0;
+      right: 50px;
     }
   }
