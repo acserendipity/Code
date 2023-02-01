@@ -37,6 +37,7 @@
 <link href="CSS/main.css" type="text/css" rel="stylesheet">
 <link href="CSS/animations.css" type="text/css" rel="stylesheet">
 
+
 </head>
 
 <body>
@@ -58,9 +59,11 @@
             <div class="dicover-top-rest">
                 <p>Discover top-of-the-art restaurants we picked for you</p>
             </div>
-            <div class="purple-button">
-                <button class="explore-button">Explore our restaurants</button>
-            </div>    
+            <a href= "#restaurant-link">
+                <div class="purple-button">
+                    <button class="explore-button">Explore our restaurants</button>
+                </div> 
+            </a>   
         </div>
     </header>
 
@@ -80,24 +83,30 @@
     </div>
 
     <section class="feature-restaurants">
-        <h2 class="rest-title">Restaurants</h2>
+        <h2 class="rest-title" id="restaurant-link">Restaurants</h2>
         
         <div class="rest-card-wrap">
+            
             <div class="Full-Palette">
                 <p class="new-tag"><span class="new-text">New</span></p>
+                <a href="Full-Palette.html">
                 <img src="file:///C:/Users/alexa/OneDrive/Desktop/Open%20Classrooms%20-%20Web%20Design/Project%202%20-%20OHMYFOOD/Projet+3+-+ohmyfood+EN/Projet%202%20-%20ohmyfood%20EN/images/restaurants/The%20Full%20Palette.jpg" 
-        alt="The-Full-Palette" width=100 class="rest-pic">
+        alt="The-Full-Palette" class="rest-pic">
+                </a>
                     <div class="restaurant-name">
                         <i class="fa-solid fa-heart" aria-hidden="true"></i>
                         <h4>The Full Palette</h4>
                         <p>New York</p> 
                     </div>     
             </div>
+        
 
             <div class="Enchanted-Plate">
                 <p class="new-tag">New</p>
+                <a href="Enchanted-Plate.html">
                 <img src="file:///C:/Users/alexa/OneDrive/Desktop/Open%20Classrooms%20-%20Web%20Design/Project%202%20-%20OHMYFOOD/Projet+3+-+ohmyfood+EN/Projet%202%20-%20ohmyfood%20EN/images/restaurants/The%20Enchanted%20Plate.jpg"
-        alt="The-Enchanted-Plate" width=100 class="rest-pic">
+        alt="The-Enchanted-Plate" class="rest-pic">
+                </a>
                     <div class="restaurant-name">
                         <i class="fa-solid fa-heart" aria-hidden="true"></i>
                         <h4>The Enchanted Plate</h4>
@@ -106,8 +115,10 @@
             </div>
 
             <div class="Bastille">
+                <a href="Bastille.html">
                 <img src="file:///C:/Users/alexa/OneDrive/Desktop/Open%20Classrooms%20-%20Web%20Design/Project%202%20-%20OHMYFOOD/Projet+3+-+ohmyfood+EN/Projet%202%20-%20ohmyfood%20EN/images/restaurants/Bastille.jpg"
-        alt="Bastille" width=100 class="rest-pic">
+        alt="Bastille" class="rest-pic">
+                </a>
                     <div class="restaurant-name">
                         <i class="fa-solid fa-heart" aria-hidden="true"></i>
                         <h4>Bastille</h4>
@@ -116,8 +127,10 @@
             </div>
 
             <div class="Gourmand">
+                <a href="Gourmand.html">
                 <img src="file:///C:/Users/alexa/OneDrive/Desktop/Open%20Classrooms%20-%20Web%20Design/Project%202%20-%20OHMYFOOD/Projet+3+-+ohmyfood+EN/Projet%202%20-%20ohmyfood%20EN/images/restaurants/Le%20Gourmand.jpg"
-        alt="Le-Gourmand" width=100 class="rest-pic">
+        alt="Le-Gourmand" class="rest-pic">
+                </a>    
                 <div class="restaurant-name">
                     <i class="fa-solid fa-heart" aria-hidden="true"></i>
                         <h4>Gourmand</h4>
@@ -135,7 +148,7 @@
         <div class="footer-item"><i class="fa-solid fa-utensils"></i>Suggest a restaurant</div>
         <div class="footer-item"><i class="fa-solid fa-handshake-angle"></i>Become a partner</div>
         <div class="footer-item">Legal</div>
-        <div class="footer-item">Contact</div>
+        <div class="footer-item"><a href="mailto:ohmyfood@foodie.com"><span id="email-link">Contact</span></div></a>
     </div>
 </footer>
 </body>

@@ -6,7 +6,7 @@ button{
 button:hover{
     transform: scale(1.07);
 }
-#menu-card {
+.menu-card {
     opacity: 0;
 	animation: fadeIn 1s ease-in both;
     cursor: pointer;
@@ -35,14 +35,17 @@ button:hover{
         transform: rotate(360deg);
     }
 }
-.menu-card{
-    animation: slide-in 1s ease-in; 
+.menu-card:hover{
+    width: 87%;
+    transition-duration: 400ms;  
+    cursor: pointer; 
 }
 .menu-item-check:hover{
     opacity: 1;
+    animation: 3s ease-in 1s infinite reverse both running slidein;
 }
 .menu-item-check:hover {
-    animation: slide-in 1s ease-in;
+    animation: slide-in 3s ease-in;
   }
   @keyframes slide-in {
     from {
